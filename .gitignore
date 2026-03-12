@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+env_old/
+myenv/
+venv/
+
+# Embedded repos / large libraries
+features/attend/dlib/
+
+# Logs
+*.log
+
+# Models (too large for git)
+models/
+features/object_detection/*.tflite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp / misc
+*.tmp
+*.bak
+sounds/
+test.jpg
+
+# Database files
+*.db
+
+# Dlib model files (large)
+features/attend/data/data_dlib/
+features/attend/data/data_faces_from_camera/
+
+# Stale pip artifacts
+=*
+
+# Test files (keep repo clean)
+test_*.py
+features/attend/test.py
+
+# Old documentation (not needed in repo)
+AUDIO_FIXES_COMPLETE.md
+MAYA_COMPLETE_GUIDE.md
+MAYA_SETUP_COMPLETE.md
+MAYA_SMOOTH_COMMUNICATION_GUIDE.md
+MAYA_SPEECH_FIXED.md
+MICROPHONE_FIXED.md
